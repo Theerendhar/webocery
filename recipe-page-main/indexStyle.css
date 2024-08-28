@@ -1,0 +1,94 @@
+@font-face {
+    font-family: young-serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    src: url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    font-size: medium;
+    font-family: outfit;
+    background-color: rgb(255, 243, 244);
+    color: rgb(58, 58, 58);
+}
+
+main{
+    max-width: 1080px;
+    margin: auto;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+h1, h2{
+    font-family: young-serif;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+    color: rgb(134, 75, 75);
+}
+
+.preparation{
+    background-color: rgb(255, 243, 244);
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+.preparation h2{
+    margin-top: 0;
+}
+
+li{
+    line-height: 2em;
+}
+
+li::marker{
+    color: rgb(134, 75, 75);
+}
+
+.image{
+    margin: 0;
+}
+
+.image img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 1em;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, tr {
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+th, td{
+    padding: 1em;
+    font-weight: normal;
+}
+
+th:nth-child(2), td:nth-child(2){
+    color: rgb(134, 75, 75);
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(255, 243, 244);
+    margin: 4em 1em;
+    padding: 3em 1em;
+    text-align: center;
+    border-radius: 0.5em;
+}
